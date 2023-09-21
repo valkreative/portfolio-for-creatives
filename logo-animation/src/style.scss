@@ -1,0 +1,42 @@
+body {
+	background-color: #004d5d;
+	color: black;
+	display: flex;
+	flex-direction: row;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+#random-logo-container {
+	height: 200px;
+	background-color: rgba(255, 255, 255, 0.2);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* Logo Image Array */
+.logo-version-1 {
+	background-image: url("https://assets.codepen.io/316293/noah-kawamura-vancouver-graphic-designer-logo-design-icon-n01-a.svg");
+}
+
+.logo-version-2 {
+	background-image: url("https://assets.codepen.io/316293/noah-kawamura-vancouver-graphic-designer-logo-design-icon-n01-b.svg");
+}
+
+.logo-version-3 {
+	background-image: url("https://assets.codepen.io/316293/noah-kawamura-vancouver-graphic-designer-logo-design-icon-n01-c.svg");
+}
+
+.logo-version-4 {
+	background-image: url("https://assets.codepen.io/316293/noah-kawamura-vancouver-graphic-designer-logo-design-icon-n01-d.svg");
+}
+.logo-version-5 {
+	background-image: url("https://assets.codepen.io/316293/noah-kawamura-vancouver-graphic-designer-logo-design-icon-n01-e.svg");
+}
+.logo-version-6 {
+	background-image: url("https://assets.codepen.io/316293/noah-kawamura-vancouver-graphic-designer-logo-design-icon-n01-f.svg");
+}
