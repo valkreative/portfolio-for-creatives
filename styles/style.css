@@ -80,6 +80,7 @@ html {
   --h1-color: #0B1B33;
   --h2-color: #0B1B33;
   --h3-color: #0B1B33;
+  --h4-color: #f7f2d0;
   --primary-text-color: #0b1b33;
   --holding-page-title-color: #ebedf0;
   --accent-color: #5200ff;
@@ -172,7 +173,15 @@ h3 {
   color: var(--h3-color);
 }
 
-
+h4 {
+  font-family: Montserrat;
+  font-size: 1.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.52px;
+  color: var(--h4-color);
+}
 
 p {
   font-family: Montserrat;
