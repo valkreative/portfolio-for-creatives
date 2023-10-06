@@ -284,6 +284,8 @@ a:active {
 .award-item {
   line-height: 1.3;
 }
+.socials-list {display: flex; flex-direction: row;}
+.social-item {font-size: 3rem; padding-right: 2.25rem;}
 
 .social-item-1 {
   width: 35px;
@@ -329,9 +331,32 @@ flex-shrink: 0;
   align-items: flex-start;
 }
 
-.logo {
-  width: 3rem;
+#random-logo-container {
+  height: 9.688rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 9.688rem;
+  margin: 0 auto;
+  text-align: center;
 }
+
+    /* Logo Image Array */
+    .logo-version-1 {
+      background-image: url("../../assets/valentina-k-orange.svg");
+    }
+
+    .logo-version-2 {
+      background-image: url("../../assets/valentina-k-button.svg");
+    }
+
+    .logo-version-3 {
+      background-image: url("../../assets/valentina-k-doughnut.svg");
+    }
+
+    .logo-version-4 {
+      background-image: url("../../assets/valentina-k-pizza.svg");
+    }
+
 
 .hero-headline-wrapper {
   display: flex;
