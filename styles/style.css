@@ -258,13 +258,13 @@ a:active {
 }
 
 .navigation-arrow {
-  color: var(--alt-background-color);
+  color: var(--accent-color);
 }
 
 .navigation-arrow:link {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--accent-color);
-  color: transparent;
+  color: var(--accent-color);
 }
 
 .navigation-arrow:active,
@@ -592,6 +592,7 @@ padding-left: 53px;
 .project-image-container {
   display: flex;
   align-items: center;
+  padding-bottom: 2vh;
   justify-content: center;
   flex-direction: column;
 }
