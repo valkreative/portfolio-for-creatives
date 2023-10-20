@@ -5,7 +5,9 @@
   <title>Cheeky's Cannabis Social Media Ad | Project Page</title>
   <meta name="description"
     content="When writing a meta description, keep it between 140 and 160 characters so Google can display your entire message. Don’t forget to include your keyword!">
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <title>CodePen - Loading A Random Logo with Pure JavaScript (Logo Array)</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:image" content="screenshot.jpg">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
@@ -17,10 +19,15 @@
 
     <header class="hero-header">
       <ul class="branding-navigation">
-        <li class="logo"><a href="javascript:void(0);" onclick="randomImage(this)" onmouseover="randomImage(this)" id="logo-1">
+
+        <a href="javascript:void(0);" onclick="randomImage(this)" onmouseover="randomImage(this)" id="logo-1">
           <div id="random-logo-container" class="logo-version-1">
           </div>
-        </a></li>
+        </a>
+        <!-- partial -->
+          <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'></script>
+          <script  src="./script.js"></script>
+
         <li><a href="about.html" class="custom-navigation">About</a></li>
       </ul>
       <ul class="socials-list">
@@ -45,12 +52,8 @@
       </ul>
     </aside>
     <main class="project-details">
-      <div class="project-image"><img src="/assets/Valentina-Kruglikovskaya-Valkreative-Halloween-Cannabis-Dispensary-Digital-Ad-Illustration-Ghost-Skeleton-Frankenstein.jpg" width="880" height="1036"
+      <div class="project-image-container"><img src="/assets/Valentina-Kruglikovskaya-Valkreative-Halloween-Cannabis-Dispensary-Digital-Ad-Illustration-Ghost-Skeleton-Frankenstein.jpg" width="880" height="1036"
           alt="A description of the image"></div>
-      <div class="project-image-container">
-        <div class="project-image"></div>
-        
-      </div>
     </main>
 
   </div>

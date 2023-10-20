@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Valentina Kruglikovskaya Portfolio</title>
+  <title>About Me | Valentina Kruglikovskaya</title>
   <meta name="description"
     content="When writing a meta description, keep it between 140 and 160 characters so Google can display your entire message. Don’t forget to include your keyword!">
   <meta charset="utf-8">
@@ -29,32 +29,49 @@
         <li class="social-item"><a href="#"><i class="fa-brands fa-square-behance"></i></a></li>
       </ul>
     </header>
+  <div class="project-wrapper">
+    <aside class="project-aside">
+      <div class="project-info">
+        <h1 class="project-title">MEET VALENTINA</h1>
+        <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-  <ul class="about">
-    <li class="about-item-1"><div class="about-image"><img src="assets/about/self-portrait.svg" width="800" height="800" alt="Your Photo"></div>
+      </div>
+    </aside>
+    <main class="project-details">
+      <div class="project-image-container"><img src="/assets/Valentina-Kruglikovskaya.jpg" width="880"
+          alt="A description of the image"></div>
+    </main>
+
+  </div>
+  <ul class="global-footer">
+    <li class="footer-item-1">
+      <h4>hello@valkreative.com <br><br> (604) 123-4567</h4>
+      <h2>Contact &amp; Social</h2>
+      <ul class="socials-list">
+        <li class="social-item"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        <li class="social-item"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li class="social-item"><a href="#"><i class="fa-brands fa-square-behance"></i></a></li>
+      </ul>
    </li>
-    <li class="about-item-2">  <h1>MEET VALENTINA</h1>
-      <p>&lsquo;Coding is like learning a language. When you immerse yourself in it it’s challenging at first, and gradually more and more rewarding. If you’re at all interested in the mechanics of the tools we use every day it’s well worth your time to do some hand coding, even if you don’t see yourself doing it professionally.&rsquo; — IDEA Grad 2022</p>
-  </li>
-  <li class="about-item-3">
-    <h2>Contact &amp; Social</h2>
-    <ul class="socials-list">
-      <li class="social-item"><a href="#">Insta</a></li>
-      <li class="social-item"><a href="#">LinkedIn</a></li>
-      <li class="social-item"><a href="#">Behance</a></li>                
-    </ul>
-  </li>    
-  <li class="about-item-4">
-    <p><a href="#top">Smooth scroll to the top</a></p>
-    <p class="fineprint">&copy; 2020-2023. Hand crafted with <span class="heart">❤</span> + Flexbox  + CSS Grid by James Neufeld.</p>
-  </li>
-    </ul>
+
+
   </ul>
-  <footer class="hero-footer">
-    <ul class="hero-footer-navigation">
-      <li><a href="#" class="custom-navigation">Instagram</a></li>
-      <li><a href="mailto:james@magnetude.com" class="custom-navigation">Email</a></li>
-    </ul>
-  </footer>
+  <div id="myID" class="bottomMenu hide"><a href="project-2.html">Next Project</a></div>
+
+  <script type="text/javascript">
+    myID = document.getElementById("myID");
+
+    var myScrollFunc = function () {
+      var y = window.scrollY;
+      if (y >= 800) {
+        myID.className = "bottomMenu show"
+      } else {
+        myID.className = "bottomMenu hide"
+      }
+    };
+
+    window.addEventListener("scroll", myScrollFunc);
+  </script>
 </body>
+
 </html>
