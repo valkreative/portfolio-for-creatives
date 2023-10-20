@@ -10,10 +10,7 @@ Add the Google Fonts you want, remove the ones you don't.
 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@400;500&display=swap');
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@400;500&display=swap");
 
 /*
 
@@ -27,8 +24,7 @@ Imported stylesheets. Remove the ones you do not want to use.
 
 */
 
-
-@import url('scroll-to-top.css');
+@import url("scroll-to-top.css");
 /*
 
 X-Small devices (portrait phones, less than 576px) 
@@ -69,37 +65,36 @@ html {
 /* Design variables refer to CSS variables that store specific design elements, such as colors and typography, which can be utilized throughout a website. Instead of individually modifying each CSS element, designers can quickly make changes by using design variables. Adjust the variables below, create new variables as desired, and delete the variables that you do not want to use. */
 
 :root {
-  --body-typeface: 'Montserrat', sans-serif;
-  --heading-typeface: 'Abel', sans-serif;
-  --project-title-typeface: 'Abel', sans-serif;
+  --body-typeface: "Montserrat", sans-serif;
+  --heading-typeface: "Abel", sans-serif;
+  --project-title-typeface: "Abel", sans-serif;
   --background-color: #f7f2d0;
   --background-color-about: #f7f2d0;
-  --background-color-footer: #0b1b33;    
+  --background-color-footer: #0b1b33;
   --alt-background-color: #000000;
   --background-color-holding-page: rgba(251, 242, 199, 0.6);
-  --h1-color: #0B1B33;
-  --h2-color: #0B1B33;
-  --h3-color: #0B1B33;
+  --h1-color: #0b1b33;
+  --h2-color: #0b1b33;
+  --h3-color: #0b1b33;
   --h4-color: #f7f2d0;
-  --h5-color: #0B1B33;
+  --h5-color: #0b1b33;
   --primary-text-color: #0b1b33;
   --holding-page-title-color: #ebedf0;
-  --accent-color: #FF6A04;
+  --accent-color: #ff6a04;
   --overlay-color: #f7f2d0;
-  --overlay-title-color: #FF6A04;
-  --overlay-description-color: #FF6A04;
-  --hyperlink-color: #f7f2d0;
-  --hyperlink-alternate-color: #FF6A04;
-  --hover-color: #FF6A04;
-  --visited-color: #f7f2d0;
-  --project-title-color: #0B1B33;;
-  --project-sidebar-text-color: #0B1B33;
+  --overlay-title-color: #ff6a04;
+  --overlay-description-color: #ff6a04;
+  --hyperlink-color: #000a67;
+  --hyperlink-alternate-color: #ff6a04;
+  --hover-color: #ff6a04;
+  --visited-color: #a2079d;
+  --project-title-color: #0b1b33;
+  --project-sidebar-text-color: #0b1b33;
   --heart-color: darkred;
   --holding-page-footer-color: #f8f8ff;
-  --text-selection-background-color: #FF6A04;
+  --text-selection-background-color: #ff6a04;
   --stroke-shadow-color: rgba(0, 0, 0, 0.4);
 }
-
 
 body {
   font-family: var(--body-typeface);
@@ -127,8 +122,6 @@ svg {
   /* This is optional. Also try cover or leave out entirely. */
 }
 
-
-
 /* Global & Mobile Typography 
 
 ████████ ██    ██ ██████   ██████   ██████  ██████   █████  ██████  ██   ██ ██    ██ 
@@ -141,42 +134,41 @@ svg {
 
 h1 {
   color: var(--h1-color);
-font-family: 'Abel';
-font-size: 5rem;
-font-style: normal;
-font-weight: 400;
-line-height: 94.941%; /* 75.953px */
-text-transform: uppercase;
-padding-bottom: 3%;
+  font-family: "Abel";
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 94.941%; /* 75.953px */
+  text-transform: uppercase;
+  padding-bottom: 3%;
 }
 
 h2 {
   text-align: right;
-  font-family: 'Abel';
+  font-family: "Abel";
   font-size: 2.25rem;
   font-style: normal;
   font-weight: 400;
   line-height: 97.441%; /* 35.079px */
   text-transform: uppercase;
   color: var(--h2-color);
-  
 }
 
 h3 {
-  font-family: 'Abel';
+  font-family: "Abel";
   font-size: 1.875rem;
   font-style: normal;
   font-weight: 400;
   line-height: 97.441%; /* 29.232px */
   text-transform: uppercase;
   color: var(--h3-color);
-  -webkit-text-stroke: 1px #0B1B33;
+  -webkit-text-stroke: 1px #0b1b33;
   padding-top: 5%;
-  padding-bottom: 5%
+  padding-bottom: 5%;
 }
 
 h4 {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 1.625rem;
   font-style: normal;
   font-weight: 400;
@@ -186,7 +178,7 @@ h4 {
 }
 
 h5 {
-  font-family: 'Abel';
+  font-family: "Abel";
   font-size: 1.875rem;
   font-style: normal;
   font-weight: 400;
@@ -195,7 +187,7 @@ h5 {
 }
 
 p {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 1.625rem;
   font-style: normal;
   font-weight: 400;
@@ -207,9 +199,8 @@ em {
   font-style: italic;
 }
 
-
 .fineprint {
-  font-size: .875rem;
+  font-size: 0.875rem;
 }
 
 .hero-headline {
@@ -231,7 +222,6 @@ em {
 .overlay-description {
   color: var(--overlay-description-color);
 }
-
 
 /* Hyperlink Styles */
 
@@ -285,10 +275,6 @@ a:active {
   background-position: center center;
 }
 
-
-
-
-
 .footer-nav-item {
   line-height: 1.3;
 }
@@ -296,15 +282,31 @@ a:active {
 .award-item {
   line-height: 1.3;
 }
-.socials-list {display: flex; flex-direction: row;}
-.social-item {font-size: 3rem; padding-right: 2.25rem;}
+.socials-list-header,
+.social-list-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 4rem 3rem 4rem 3rem; /* top right bottom left */
+}
+
+.socials-list-header {
+  background: lightblue;
+}
+.socials-list-footer {
+  background: lightpink;
+}
+.social-item {
+  font-size: 3rem;
+  padding-right: 2.25rem;
+}
 
 .social-item-1 {
   width: 35px;
-height: 34px;
-flex-shrink: 0;
+  height: 34px;
+  flex-shrink: 0;
 }
-
 
 .list-item {
   line-height: 1.3;
@@ -318,8 +320,6 @@ flex-shrink: 0;
   margin-bottom: 1rem;
 }
 
-
-
 /* Hero 
 
 ██   ██ ███████ ██████   ██████  
@@ -330,6 +330,10 @@ flex-shrink: 0;
                                  
 */
 
+.page-wrapper {
+  display: flex;
+  flex-direction: row;
+}
 .hero {
   min-height: 80vh;
   display: flex;
@@ -337,16 +341,11 @@ flex-shrink: 0;
 }
 
 .branding-navigation {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 1rem;
-  align-items: flex-start;
 }
 
 #random-logo-container {
   height: 9.688rem;
-  position: fixed;
+  /* position: fixed; */
   background-size: contain;
   background-repeat: no-repeat;
   width: 9.688rem;
@@ -354,23 +353,22 @@ flex-shrink: 0;
   text-align: center;
 }
 
-    /* Logo Image Array */
-    .logo-version-1 {
-      background-image: url("../../assets/valentina-k-orange.svg");
-    }
+/* Logo Image Array */
+.logo-version-1 {
+  background-image: url("../../assets/valentina-k-orange.svg");
+}
 
-    .logo-version-2 {
-      background-image: url("../../assets/valentina-k-button.svg");
-    }
+.logo-version-2 {
+  background-image: url("../../assets/valentina-k-button.svg");
+}
 
-    .logo-version-3 {
-      background-image: url("../../assets/valentina-k-doughnut.svg");
-    }
+.logo-version-3 {
+  background-image: url("../../assets/valentina-k-doughnut.svg");
+}
 
-    .logo-version-4 {
-      background-image: url("../../assets/valentina-k-pizza.svg");
-    }
-
+.logo-version-4 {
+  background-image: url("../../assets/valentina-k-pizza.svg");
+}
 
 .hero-headline-wrapper {
   display: flex;
@@ -400,9 +398,6 @@ flex-shrink: 0;
   padding: 1rem;
 }
 
-
-
-
 /* Work Page Layout
 
 ██     ██  ██████  ██████  ██   ██     ██████   █████   ██████  ███████ 
@@ -422,7 +417,7 @@ flex-shrink: 0;
 /* Padding around work grid and project page */
 .portfolio,
 .project-wrapper {
-  padding: .25rem;
+  padding: 0.25rem;
 }
 
 /* Defining the work page grid */
@@ -457,16 +452,13 @@ flex-shrink: 0;
   flex-direction: column;
   padding: 1em;
   background-color: var(--overlay-color);
-  transition: opacity .3s, visibility .3s;
+  transition: opacity 0.3s, visibility 0.3s;
 }
 
 .work-page-grid-item:hover .overlay {
   visibility: visible;
-  opacity: .8;
+  opacity: 0.8;
 }
-
-
-
 
 /* 
 
@@ -517,10 +509,9 @@ flex-shrink: 0;
                                                    
 */
 
-
 .global-footer {
-  display:grid;
-  min-height: 38.22355289421158vh;
+  display: grid;
+  min-height: 40vh;
   background: var(--background-color-footer);
   padding: 1rem;
 }
@@ -531,24 +522,21 @@ flex-shrink: 0;
 }
 
 .footer-item-2 {
-  grid-row 1;
-flex-shrink: 0;
+  grid-row: 1;
+  flex-shrink: 0;
 }
 
 .footer-item-3 {
-  grid-row 1;
-flex-shrink: 0;
-padding-left: 53px;
+  grid-row: 1;
+  flex-shrink: 0;
+  padding-left: 53px;
 }
 
 .footer-item-4 {
-  grid-row 1;
-flex-shrink: 0;
-padding-left: 53px;
+  grid-row: 1;
+  flex-shrink: 0;
+  padding-left: 53px;
 }
-
-
-
 
 /* Project Page 
 
@@ -568,13 +556,12 @@ padding-left: 53px;
 
 /* Sidebar */
 .project-aside {
-  width: 100%;
-  padding: 1rem;
-  padding-left: 10rem;
-  display: flex;
-  flex-direction: column;
-  color: var(--project-sidebar-text-color);
-  
+  width: 20%;
+  height: 65vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 6rem;
+  padding-right: 1rem;
 }
 
 .project-navigation {
@@ -606,7 +593,6 @@ padding-left: 53px;
   justify-content: center;
 }
 
-
 .text-section {
   width: 100%;
 }
@@ -622,12 +608,7 @@ padding-left: 53px;
 .project-details {
   width: 100%;
   padding: 1rem;
-
 }
-
-
-
-
 
 /* 
 
@@ -648,8 +629,11 @@ padding-left: 53px;
   width: 100%;
   min-height: 100vh;
   /* Delete the following if you do not want a grainy gradient background on the holding page */
-  background:
-    linear-gradient(0deg, rgba(0, 0, 0, 1), var(--background-color-holding-page)),
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1),
+      var(--background-color-holding-page)
+    ),
     url(/assets/temp/noise.svg);
   /* For more on grainy gradients see https://grainy-gradients.vercel.app/ */
 }
@@ -671,7 +655,7 @@ padding-left: 53px;
 }
 
 .holding-page-copyright {
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: var(--holding-page-footer-color);
   margin-bottom: 0;
 }
@@ -689,7 +673,6 @@ padding-left: 53px;
   padding: 3rem;
 }
 
-
 /*
 ███████ ██████  ██████   ██████  ██████  
 ██      ██   ██ ██   ██ ██    ██ ██   ██ 
@@ -703,7 +686,8 @@ padding-left: 53px;
   place-items: center;
 }
 
-.error-page-wrapper {}
+.error-page-wrapper {
+}
 
 .error-page-inner-container {
   text-align: center;
@@ -722,17 +706,16 @@ padding-left: 53px;
 ██      ███████ ██   ██    ██    
 */
 
- /* Define the masonry grid container */
- .masonry {
+/* Define the masonry grid container */
+.masonry {
   column-count: 3; /* Adjust the number of columns as needed */
   column-gap: 1rem; /* Adjust the gap between columns */
-  flex: 1;
+  flex-shrink: 1;
   padding-left: 10rem;
   padding-right: 10rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 0.25rem;
 }
-
 
 /* Style the individual grid items */
 .masonry-item {
@@ -742,7 +725,9 @@ padding-left: 53px;
   position: relative;
   break-inside: avoid-column; /* Prevent items from breaking across columns */
   margin: 0 0em; /* Adjust the margin between items */
-  background-color: var(--background-color); /* Add background color for better visibility */
+  background-color: var(
+    --background-color
+  ); /* Add background color for better visibility */
   padding: 0.5rem; /* Add padding for spacing within items */
   box-sizing: border-box; /* Include padding and border in the item's total width */
 }
@@ -752,7 +737,8 @@ padding-left: 53px;
   place-items: center;
 }
 
-.play-page-wrapper {}
+.play-page-wrapper {
+}
 
 .play-page-inner-container {
   text-align: center;
@@ -762,6 +748,10 @@ padding-left: 53px;
   color: var(--accent-color);
 }
 
+.playground-gallery-wrapper {
+  width: 90%;
+  border: 5px dashed orange;
+}
 
 /*
 ███████ ██   ██ ██████  ███████ ██████  ██ ███    ███ ███████ ███    ██ ████████ ███████ 
@@ -770,7 +760,6 @@ padding-left: 53px;
 ██       ██ ██  ██      ██      ██   ██ ██ ██  ██  ██ ██      ██  ██ ██    ██         ██ 
 ███████ ██   ██ ██      ███████ ██   ██ ██ ██      ██ ███████ ██   ████    ██    ███████ 
 */
-
 
 .experiments-page {
   display: grid;
@@ -815,7 +804,8 @@ padding-left: 53px;
   text-align: center;
 }
 
-.sub-navigation-item {}
+.sub-navigation-item {
+}
 
 a.sub-navigation-link {
   border: 1px solid var(--accent-color);
@@ -868,7 +858,6 @@ a.sub-navigation-link:hover {
   }
 }
 
-
 /*
 
 ███    ███ ███████ ██████  ██  █████       ██████  ██    ██ ███████ ██████  ██ ███████ ███████ 
@@ -879,15 +868,14 @@ a.sub-navigation-link:hover {
 
 */
 
-
 /* Medium devices (tablets, 768px and up) */
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+}
 
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-
   .holding-page-title {
     font-size: 2rem;
   }
@@ -902,10 +890,6 @@ a.sub-navigation-link:hover {
 
   h3 {
     font-size: 1.625rem;
-  }
-
-  .logo {
-    width: 5rem;
   }
 
   .hero {
@@ -926,8 +910,8 @@ a.sub-navigation-link:hover {
     filter: grayscale(100);
   }
 
-  .work-page-grid-item>a.grayscale:active img,
-  .work-page-grid-item>a.grayscale:hover img {
+  .work-page-grid-item > a.grayscale:active img,
+  .work-page-grid-item > a.grayscale:hover img {
     filter: grayscale(0);
   }
 
@@ -994,12 +978,11 @@ a.sub-navigation-link:hover {
   /* Project Page Flex Direction on Large Devices */
   .project-wrapper {
     flex-direction: row;
-
   }
 
   /* Sidebar on Large Devices */
   .project-aside {
-    width: 35%;
+    width: 25%;
     height: 65vh;
     position: -webkit-sticky;
     position: sticky;
@@ -1009,7 +992,8 @@ a.sub-navigation-link:hover {
 
   /* Main Project Image Area on Large Devices */
   .project-details {
-    width: 65%;
+    width: 75%;
+    background: lightcoral;
   }
 
   .project-image {
@@ -1028,18 +1012,16 @@ a.sub-navigation-link:hover {
   .arrow {
     padding-right: 1rem;
   }
-
-
 }
-
 
 /* Only add styles below to make very minor adjustments for extra or extra-extra large devices */
 
-
 /* X-Large devices (large desktops, 1200px and up)*/
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
+}
