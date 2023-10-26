@@ -347,33 +347,31 @@ a:active {
 }
 
 .branding-navigation {
+  background: red;
 }
 
 #random-logo-container {
+  width: 9.688rem;
   height: 9.688rem;
-  /* position: fixed; */
   background-size: contain;
   background-repeat: no-repeat;
-  width: 9.688rem;
-  margin: 0 auto;
-  text-align: center;
 }
 
 /* Logo Image Array */
 .logo-version-1 {
-  background-image: url("../../assets/valentina-k-orange.svg");
+  background-image: url("../assets/valentina-k-orange.svg");
 }
 
 .logo-version-2 {
-  background-image: url("../../assets/valentina-k-button.svg");
+  background-image: url("../assets/valentina-k-button.svg");
 }
 
 .logo-version-3 {
-  background-image: url("../../assets/valentina-k-doughnut.svg");
+  background-image: url("../assets/valentina-k-doughnut.svg");
 }
 
 .logo-version-4 {
-  background-image: url("../../assets/valentina-k-pizza.svg");
+  background-image: url("../assets/valentina-k-pizza.svg");
 }
 
 .hero-headline-wrapper {
@@ -418,12 +416,6 @@ a:active {
   flex: 1;
   padding-left: 10rem;
   padding-right: 10rem;
-}
-
-/* Padding around work grid and project page */
-.portfolio,
-.project-wrapper {
-  padding: 0.25rem;
 }
 
 /* Defining the work page grid */
@@ -528,7 +520,7 @@ a:active {
 
 .global-footer {
   display: grid;
-  min-height: 40vh;
+  min-height: 30vh;
   background: var(--background-color-footer);
   padding: 1rem;
 }
@@ -573,12 +565,7 @@ a:active {
 
 /* Sidebar */
 .project-aside {
-  width: 40%;
-  height: 65vh;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 6rem;
-  padding-right: 1rem;
+  width: 100%;
 }
 
 .project-navigation {
@@ -603,8 +590,6 @@ a:active {
 
 .project-image {
   width: 100%;
-  min-height: 50vh;
-  /* min-height should be deleted if you want to remove space between project images on project pages */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -999,18 +984,15 @@ a.sub-navigation-link:hover {
 
   /* Sidebar on Large Devices */
   .project-aside {
-    width: 30%;
-    height: 65vh;
+    width: 35%;
+    height: 100vh;
     position: -webkit-sticky;
     position: sticky;
-    top: 5vh;
-    padding-right: 0.5rem;
-    padding-left: 10%;
   }
 
   /* Main Project Image Area on Large Devices */
   .project-details {
-    width: 60%;
+    width: 65%;
     background: lightcoral;
   }
 
