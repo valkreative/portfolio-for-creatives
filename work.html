@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Valentina Kruglikovskaya Portfolio</title>
+    <title>Cheeky's Cannabis Social Media Ad | Project Page</title>
     <meta
       name="description"
       content="When writing a meta description, keep it between 140 and 160 characters so Google can display your entire message. Don’t forget to include your keyword!"
     />
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
+    <title>
+      CodePen - Loading A Random Logo with Pure JavaScript (Logo Array)
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta property="og:image" content="screenshot.jpg" />
     <link
@@ -21,31 +29,43 @@
   </head>
 
   <body class="work-page">
-    <div class="page-wrapper">
-      <ul class="branding-navigation">
-        <li class="logo">
-          <a
-            href="work.html"
-            onclick="randomImage(this)"
-            onmouseover="randomImage(this)"
-            id="logo-1"
-          >
-            <div id="random-logo-container" class="logo-version-1"></div>
-          </a>
-        </li>
-        <li>
-          <a href="about.html" class="custom-navigation">
-            <h5>ABOUT</h5>
-          </a>
-        </li>
-        <li>
-          <a href="playground.html" class="custom-navigation">
-            <h5>PLAYGROUND</h5>
-          </a>
-        </li>
-      </ul>
+    <div class="project-wrapper">
+      <aside class="project-aside">
+        <ul class="branding">
+          <li class="logo">
+            <a
+              href="work.html"
+              onclick="randomImage(this)"
+              onmouseover="randomImage(this)"
+              id="logo-1"
+            >
+              <div id="random-logo-container" class="logo-version-1"></div>
+            </a>
+          </li>
+        </ul>
+        <ul class="navigation">
+          <li>
+            <a href="about.html" class="custom-navigation">
+              <h5>ABOUT</h5>
+            </a>
+          </li>
+          <li>
+            <a href="playground.html" class="custom-navigation">
+              <h5>PLAYGROUND</h5>
+            </a>
+          </li>
+        </ul>
+        <div class="project-info">
+          <h1 class="project-title">Selected Works</h1>
+          <h2>
+            Hey, I'm Valentina, a Russian-born Canadian designer specializing in
+            illustration, branding and packaging. In my free time I like making
+            fonts and beer labels.
+          </h2>
+        </div>
+      </aside>
 
-      <main class="work-wrapper">
+      <main class="project-details">
         <ul class="socials-list-header">
           <li class="social-item">
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -103,45 +123,68 @@
                 </div>
               </a>
             </li>
+
             <li class="work-page-grid-item">
               <figure>
                 <img
-                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/phone.jpg"
+                  src="assets/thumbnails/Valentina-Kruglikovskaya-Cannabis-Ad-Instagram-Thumbnail.jpg"
                   alt="Describe your project"
                 />
               </figure>
               <a href="project-1.html">
                 <div class="overlay">
-                  <h1 class="overlay-title">Text Overlay</h1>
-                  <h4 class="overlay-description">Fine Art</h4>
+                  <h1 class="overlay-title">Cheeky's Cannabis</h1>
+                  <h4 class="overlay-description">
+                    Branding &amp Illustration
+                  </h4>
                 </div>
               </a>
             </li>
             <li class="work-page-grid-item">
               <figure>
                 <img
-                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/pawel-czerwinski.jpg"
+                  src="assets/thumbnails/Valentina-Kruglikovskaya-Cannabis-Ad-Instagram-Thumbnail.jpg"
                   alt="Describe your project"
                 />
               </figure>
               <a href="project-1.html">
                 <div class="overlay">
-                  <h1 class="overlay-title">Text Overlay</h1>
-                  <h4 class="overlay-description">Illustration</h4>
+                  <h1 class="overlay-title">Cheeky's Cannabis</h1>
+                  <h4 class="overlay-description">
+                    Branding &amp Illustration
+                  </h4>
                 </div>
               </a>
             </li>
             <li class="work-page-grid-item">
               <figure>
                 <img
-                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/phone.jpg"
+                  src="assets/thumbnails/Valentina-Kruglikovskaya-Cannabis-Ad-Instagram-Thumbnail.jpg"
                   alt="Describe your project"
                 />
               </figure>
               <a href="project-1.html">
                 <div class="overlay">
-                  <h1 class="overlay-title">Text Overlay</h1>
-                  <h4 class="overlay-description">Add Your Category</h4>
+                  <h1 class="overlay-title">Cheeky's Cannabis</h1>
+                  <h4 class="overlay-description">
+                    Branding &amp Illustration
+                  </h4>
+                </div>
+              </a>
+            </li>
+            <li class="work-page-grid-item">
+              <figure>
+                <img
+                  src="assets/thumbnails/Valentina-Kruglikovskaya-Cannabis-Ad-Instagram-Thumbnail.jpg"
+                  alt="Describe your project"
+                />
+              </figure>
+              <a href="project-1.html">
+                <div class="overlay">
+                  <h1 class="overlay-title">Cheeky's Cannabis</h1>
+                  <h4 class="overlay-description">
+                    Branding &amp Illustration
+                  </h4>
                 </div>
               </a>
             </li>
@@ -149,11 +192,11 @@
         </section>
       </main>
     </div>
-    <!--closing for page wrapper-->
+
     <ul class="global-footer">
       <li class="footer-item-1">
         <h4>
-          valkreativedesign@gmail.com <br /><br />
+          hello@valkreative.com <br /><br />
           (604) 123-4567
         </h4>
         <h2>Contact &amp; Social</h2>
@@ -170,8 +213,9 @@
         </ul>
       </li>
     </ul>
-
-    <div id="myID" class="bottomMenu hide"><a href="#">Back to top</a></div>
+    <div id="myID" class="bottomMenu hide">
+      <a href="project-2.html">Next Project</a>
+    </div>
 
     <script type="text/javascript">
       myID = document.getElementById("myID");
