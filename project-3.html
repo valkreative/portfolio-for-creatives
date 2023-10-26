@@ -1,103 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Cheeky's Cannabis Social Media Ad | Project Page</title>
+    <meta
+      name="description"
+      content="When writing a meta description, keep it between 140 and 160 characters so Google can display your entire message. Don’t forget to include your keyword!"
+    />
+    <meta charset="UTF-8" />
+    <title>
+      CodePen - Loading A Random Logo with Pure JavaScript (Logo Array)
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:image" content="screenshot.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/20b8c434f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
 
-<head>
-  <title>Endeavour Annual | Project Page</title>
-  <meta name="description"
-    content="When writing a meta description, keep it between 140 and 160 characters so Google can display your entire message. Don’t forget to include your keyword!">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property="og:image" content="screenshot.jpg">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-  <script src="https://kit.fontawesome.com/20b8c434f2.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./styles/style.css">
-</head>
+  <body class="work-page">
+    <div class="project-wrapper">
+      <aside class="project-aside">
+        <ul class="branding">
+          <li class="logo">
+            <a
+              href="work.html"
+              onclick="randomImage(this)"
+              onmouseover="randomImage(this)"
+              id="logo-1"
+            >
+              <div id="random-logo-container" class="logo-version-1"></div>
+            </a>
+          </li>
+        </ul>
+        <ul class="navigation">
+          <li>
+            <a href="about.html" class="custom-navigation">
+              <h5>ABOUT</h5>
+            </a>
+          </li>
+          <li>
+            <a href="playground.html" class="custom-navigation">
+              <h5>PLAYGROUND</h5>
+            </a>
+          </li>
+        </ul>
+        <div class="project-info">
+          <h1 class="project-title">STUDIO BREWING SWEET N SOUR SERIES</h1>
+          <p class="project-description">
+            Studio Brewing focuses on creating accessible, unpretentious craft
+            beers.
+          </p>
+          <p class="project-description">
+            As part of its summer collection, Studio launched a series of four
+            different beers. The challenge was to come up with a general look
+            and feel for the series that set it apart from their other beers.
+            The key was to highlight the fun-loving nature of the brewery.
+            Playful, abstract shapes and bright colours created a system of
+            illustrative elements that would work together as a single unit to
+            suggest the fruity summer tanginess of each flavour
+          </p>
+          <h3 class="disciplines">Disciplines</h3>
+          <p class="project-description">Branding<br />Packaging</p>
+        </div>
+        <ul class="project-navigation">
+          <li class="arrow">
+            <a href="#" class="navigation-arrow"
+              ><i class="fas fa-arrow-left fa-2x"></i
+            ></a>
+          </li>
+          <li class="arrow">
+            <a href="project-2.html" class="navigation-arrow"
+              ><i class="fas fa-arrow-right fa-2x"></i
+            ></a>
+          </li>
+        </ul>
+      </aside>
 
-<body class="work-page">
+      <main class="project-details">
+        <ul class="socials-list-header">
+          <li class="social-item">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li class="social-item">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </li>
+          <li class="social-item">
+            <a href="#"><i class="fa-brands fa-square-behance"></i></a>
+          </li>
+        </ul>
 
-    <header class="hero-header">
-      <ul class="branding-navigation">
-        <li class="logo"><a href="javascript:void(0);" onclick="randomImage(this)" onmouseover="randomImage(this)" id="logo-1">
-          <div id="random-logo-container" class="logo-version-1">
+        <div class="project-image-container">
+          <img
+            src="assets/beer/Valentina-Kruglikovskaya-Valkreative-Craft-Beer-Packaging-Fruity-Sour-Beers-Can-Design.jpg"
+            alt="A description of the image"
+          />
+        </div>
+        <div class="project-image-container">
+          <div class="project-image">
+            <img
+              src="assets/beer/Valentina-Kruglikovskaya-Valkreative-Craft-Beer-Packaging-Fruity-Sour-Beers-Coaster-Design.jpg"
+              alt="A description of the image"
+            />
           </div>
-        </a></li>
-        <li>
-          <a href="about.html" class="custom-navigation">
-            <h5>ABOUT</h5>
-          </a>
-        </li>
-        <li>
-          <a href="playground.html" class="custom-navigation">
-            <h5>PLAYGROUND</h5>
-          </a>
-        </li>
-      </ul>
-      <ul class="socials-list">
-        <li class="social-item"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-        <li class="social-item"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-        <li class="social-item"><a href="#"><i class="fa-brands fa-square-behance"></i></a></li>
-      </ul>
-    </header>
-  <div class="project-wrapper">
-    <aside class="project-aside">
-      <div class="project-info">
-        <h1 class="project-title">STUDIO BREWING SWEET N SOUR SERIES</h1>
-        <p class="project-description">Studio Brewing focuses on creating accessible, unpretentious craft beers.</p>
-        <p class="project-description"> As part of its summer collection, Studio launched a series of four different beers. The challenge was to come up with a general look and feel for the series that set it apart from their other beers. The key was to highlight the fun-loving nature of the brewery. Playful, abstract shapes and bright colours created a system of illustrative elements that would work together as a single unit to suggest the fruity summer tanginess of each flavour</p>
-        <h3 class="disciplines">Disciplines</h3>
-        <p class="project-description">Branding<br>Packaging</p>
+        </div>
+        <div class="project-image-container">
+          <div class="project-image">
+            <img
+              src="assets/beer/Valentina-Kruglikovskaya-Valkreative-Craft-Beer-Packaging-Fruity-Sour-Beers-Tote-Design.jpg"
+              alt="A description of the image"
+            />
+          </div>
+        </div>
+      </main>
+    </div>
 
-      </div>
-      <ul class="project-navigation">
-        <li class="arrow"><a href="#" class="navigation-arrow"><i class="fas fa-arrow-left fa-2x"></i></a></li>
-        <li class="arrow"><a href="project-2.html" class="navigation-arrow"><i class="fas fa-arrow-right fa-2x"></i></a>
-        </li>
-      </ul>
-    </aside>
-    <main class="project-details">
-      <div class="project-image-container"><img src="/assets/beer/Valentina-Kruglikovskaya-Valkreative-Craft-Beer-Packaging-Fruity-Sour-Beers-Can-Design.jpg" width="880" height="1036"
-          alt="A description of the image"></div>
-      <div class="project-image-container">
-        <div class="project-image"><img src="/assets/beer/Valentina-Kruglikovskaya-Valkreative-Craft-Beer-Packaging-Fruity-Sour-Beers-Coaster-Design.jpg" width="880" height="1036"
-          alt="A description of the image"></div>
-      </div>
-      <div class="project-image-container">
-        <div class="project-image"><img src="/assets/beer/Valentina-Kruglikovskaya-Valkreative-Craft-Beer-Packaging-Fruity-Sour-Beers-Tote-Design.jpg" width="880" height="1036"
-          alt="A description of the image"></div>
-      </div>
-     </div>
-    </main>
+    <ul class="global-footer">
+      <li class="footer-item-1">
+        <h4>
+          hello@valkreative.com <br /><br />
+          (604) 123-4567
+        </h4>
+        <h2>Contact &amp; Social</h2>
+        <ul class="socials-list">
+          <li class="social-item">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li class="social-item">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </li>
+          <li class="social-item">
+            <a href="#"><i class="fa-brands fa-square-behance"></i></a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <div id="myID" class="bottomMenu hide">
+      <a href="project-2.html">Next Project</a>
+    </div>
 
-  </div>
-  <ul class="global-footer">
-    <li class="footer-item-1">
-      <h4>hello@valkreative.com <br><br> (604) 123-4567</h4>
-      <h2>Contact &amp; Social</h2>
-      <ul class="socials-list">
-        <li class="social-item"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-        <li class="social-item"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-        <li class="social-item"><a href="#"><i class="fa-brands fa-square-behance"></i></a></li>
-      </ul>
-   </li>
+    <script type="text/javascript">
+      myID = document.getElementById("myID");
 
+      var myScrollFunc = function () {
+        var y = window.scrollY;
+        if (y >= 800) {
+          myID.className = "bottomMenu show";
+        } else {
+          myID.className = "bottomMenu hide";
+        }
+      };
 
-  </ul>
-  <div id="myID" class="bottomMenu hide"><a href="project-2.html">Next Project</a></div>
-
-  <script type="text/javascript">
-    myID = document.getElementById("myID");
-
-    var myScrollFunc = function () {
-      var y = window.scrollY;
-      if (y >= 800) {
-        myID.className = "bottomMenu show"
-      } else {
-        myID.className = "bottomMenu hide"
-      }
-    };
-
-    window.addEventListener("scroll", myScrollFunc);
-  </script>
-</body>
-
+      window.addEventListener("scroll", myScrollFunc);
+    </script>
+    <script src="js/logo-randomizer.js"></script>
+  </body>
 </html>
