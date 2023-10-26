@@ -1,24 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Valentina Kruglikovskaya | Error Page</title>
+    <meta
+      name="description"
+      content="When writing a meta description, keep it between 140 and 160 characters so Google can display your entire message. Don’t forget to include your keyword!"
+    />
+    <meta charset="UTF-8" />
+    <title>
+      CodePen - Loading A Random Logo with Pure JavaScript (Logo Array)
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:image" content="screenshot.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/20b8c434f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
 
-<head>
-  <title>Free Creative Portfolio Template: May 2023 Version | Work Page</title>
-  <meta name="description"
-    content="When writing a meta description, keep it between 140 and 160 characters so Google can display your entire message. Don’t forget to include your keyword!">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property="og:image" content="screenshot.jpg">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-  <script src="https://kit.fontawesome.com/d300c2ea15.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./styles/style.css">
-</head>
-
-<body class="error-page">
+  <body class="error-page">
     <div class="error-page-wrapper">
       <div class="error-page-inner-container">
-       <h1 class="error-page-title">404 File Not Found</h1>
-       <p>Create a custom error page that matches your personal brand.</p>
-    </div>      
-   </div>
-</body>
+        <ul class="branding">
+          <li class="logo">
+            <a
+              href="work.html"
+              onclick="randomImage(this)"
+              onmouseover="randomImage(this)"
+              id="logo-1"
+            >
+              <div id="random-logo-container" class="logo-version-1"></div>
+            </a>
+          </li>
+        </ul>
+        <h1 class="error-page-title">404 File Not Found</h1>
+        <p>Create a custom error page that matches your personal brand.</p>
+      </div>
+    </div>
+    <script src="js/logo-randomizer.js"></script>
+  </body>
 </html>
