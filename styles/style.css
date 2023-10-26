@@ -282,7 +282,12 @@ a:active {
 .award-item {
   line-height: 1.3;
 }
-
+.branding {
+  margin-bottom: 2rem;
+}
+.navigation {
+  margin-bottom: 2rem;
+}
 .branding,
 .socials-list-header {
   min-height: 15vh;
@@ -356,9 +361,9 @@ a:active {
 #random-logo-container {
   width: 10rem;
   min-height: 8rem;
-
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center center;
 }
 
 /* Logo Image Array */
@@ -376,6 +381,10 @@ a:active {
 
 .logo-version-4 {
   background-image: url("../assets/valentina-k-pizza.svg");
+}
+
+.logo-version-5 {
+  background-image: url("../assets/valentina-k-gear.svg");
 }
 
 .hero-headline-wrapper {
@@ -694,12 +703,23 @@ a:active {
 }
 
 .error-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .error-page-inner-container {
-  text-align: center;
+  margin-bottom: 2rem;
 }
 
+#random-logo-container-error-page {
+  width: 20rem;
+  min-height: 16rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 .error-page-title {
   color: var(--accent-color);
 }
