@@ -7,7 +7,7 @@ img {
   column-gap: 16px;
 }
 
-.masonry .mItem {
+.masonry .masonry-item {
   display: inline-block;
   margin-bottom: 16px;
   width: 100%;
