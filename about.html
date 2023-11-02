@@ -58,13 +58,23 @@
         <div class="project-info">
           <h1 class="project-title">ABOUT VALENTINA</h1>
           <p class="project-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
+            Hello, I’m Valentina, a Vancouver-based, Russian-Canadian creative.
+            My mimi-manifesto: “I do what I love and love what I do. Existence
+            is a never-ending pool of opportunity for discovery and adventure.
+            Solutions are found in unexpected places; harmony and balance can be
+            teased out of a world of chaos.”<br />
+            I pride myself on being versatile and resilient. A soon-to-be
+            graduate of the IDEA School of Design at Capilano University, I
+            delight in creating vibrant packaging designs and developing design
+            systems that carry across the brand.<br />
+            When I’m not busy taking pictures of my cat or fruitlessly trying to
+            keep my hair out of my face, you can find me buried in my
+            sketchbook, coming up with new font designs, or capturing the moment
+            by drawing strangers in public.<br />
+            If you have a project that needs a designer’s eye and an
+            illustrator’s wrist, let’s grab a coffee and chat!<br />
+            Skills: Packaging design, branding, illustration, photo-editing,
+            iconography
           </p>
         </div>
       </aside>
@@ -88,17 +98,17 @@
           </li>
         </ul>
         <div class="project-image-container">
-          <img
-            class="static"
-            src="assets/Valentina-Kruglikovskaya-Self-Prtrait.png"
-            width="500"
-            alt="Self-Portrait"
-          /><img
-            class="active"
-            src="assets/Valentina-Kruglikovskaya-Self-Prtrait.gif"
-            width="500"
-            alt="Self-Portrait"
-          />
+          <figure class="about-me-animation">
+            <img
+              onmouseover="animationIn()"
+              onmouseout="animationOut()"
+              src="assets/valentina-kruglikovskaya-self-portrait-illustration.png"
+              alt="logo"
+              width="1533"
+              height="1925"
+              id="logo"
+            />
+          </figure>
         </div>
       </main>
     </div>
@@ -148,5 +158,18 @@
       window.addEventListener("scroll", myScrollFunc);
     </script>
     <script src="js/logo-randomizer.js"></script>
+    <script>
+      function animationIn() {
+        document.getElementById("logo").src =
+          "assets/valentina-kruglikovskaya-self-portrait-illustration.gif";
+        document.getElementById("logo").alt = "animationIn";
+      }
+
+      function animationOut() {
+        document.getElementById("logo").src =
+          "assets/valentina-kruglikovskaya-self-portrait-illustration.png";
+        document.getElementById("logo").alt = "animationOut";
+      }
+    </script>
   </body>
 </html>

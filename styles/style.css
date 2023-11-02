@@ -70,17 +70,17 @@ html {
   --body-typeface: "Montserrat", sans-serif;
   --heading-typeface: "Abel", sans-serif;
   --project-title-typeface: "Abel", sans-serif;
-  --background-color: #f7f2d0;
+  --background-color: #0b1b33;
   --background-color-about: #f7f2d0;
-  --background-color-footer: #0b1b33;
+  --background-color-footer: #f7f2d0;
   --alt-background-color: #000000;
   --background-color-holding-page: rgba(251, 242, 199, 0.6);
-  --h1-color: #0b1b33;
-  --h2-color: #0b1b33;
-  --h3-color: #0b1b33;
-  --h4-color: #f7f2d0;
-  --h5-color: #0b1b33;
-  --primary-text-color: #0b1b33;
+  --h1-color: #f7f2d0;
+  --h2-color: #f7f2d0;
+  --h3-color: #f7f2d0;
+  --h4-color: #0b1b33;
+  --h5-color: #f7f2d0;
+  --primary-text-color: #f7f2d0;
   --holding-page-title-color: #ebedf0;
   --accent-color: #ff6a04;
   --overlay-color: #f7f2d0;
@@ -90,7 +90,7 @@ html {
   --hyperlink-alternate-color: #ff6a04;
   --hover-color: #ff6a04;
   --visited-color: #ff6a04;
-  --project-title-color: #0b1b33;
+  --project-title-color: #f7f2d0;
   --project-sidebar-text-color: #0b1b33;
   --heart-color: darkred;
   --holding-page-footer-color: #f8f8ff;
@@ -164,7 +164,7 @@ h3 {
   line-height: 97.441%; /* 29.232px */
   text-transform: uppercase;
   color: var(--h3-color);
-  -webkit-text-stroke: 1px #0b1b33;
+  -webkit-text-stroke: 1px #f7f2d0;
   padding-top: 5%;
   padding-bottom: 5%;
 }
@@ -261,7 +261,7 @@ a:active {
 }
 
 a.footer-social-link {
-  color: var(--overlay-color);
+  color: var(--background-color);
 }
 a.footer-social-link:hover {
   color: var(--accent-color);
@@ -501,6 +501,9 @@ a.footer-social-link:hover {
                                            
 */
 
+.about-me-animation {
+  width: 50%;
+}
 .about {
   display: grid;
   grid-template-columns: 1fr;
@@ -528,19 +531,6 @@ a.footer-social-link:hover {
 .about-item-4 {
   grid-column: 1 / 2;
   grid-row: 4 / 5;
-}
-
-/* Animated self-portrait */
-
-.static {
-  position: absolute;
-  background: var(
-    --background-color
-  ); /* we need to find a better way to do this */
-}
-
-.static:hover {
-  opacity: 0;
 }
 
 /* Global Footer
@@ -592,6 +582,7 @@ a.footer-social-link:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 1rem;
 }
 
 /* Sidebar */
