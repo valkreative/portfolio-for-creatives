@@ -171,7 +171,7 @@ h3 {
 
 h4 {
   font-family: "Montserrat";
-  font-size: 1.25rem;
+  font-size: 1.625rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -193,7 +193,7 @@ h5 {
   font-size: 1.875rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 97.441%; /* 29.232px */
+  line-height: 125%; /* 29.232px */
   color: var(--h5-color);
 }
 
@@ -991,7 +991,6 @@ a.sub-navigation-link:hover {
     padding-right: 2rem;
     padding-bottom: 2rem;
     padding-left: 3rem;
-    position: -webkit-sticky;
     position: sticky;
   }
 
