@@ -45,7 +45,7 @@ No media query for `xs` since this is the default in Bootstrap
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  cursor: url("../assets/cursor.svg"), auto !important;
+  cursor: url("../assets/cursor.svg") auto !important;
 }
 
 *,
@@ -86,7 +86,7 @@ html {
   --overlay-color: #f7f2d0;
   --overlay-title-color: #ff6a04;
   --overlay-description-color: #ff6a04;
-  --hyperlink-color: #000a67;
+  --hyperlink-color: #f7f2d0;
   --hyperlink-alternate-color: #ff6a04;
   --hover-color: #ff6a04;
   --visited-color: #ff6a04;
@@ -171,7 +171,7 @@ h3 {
 
 h4 {
   font-family: "Montserrat";
-  font-size: 1.625rem;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -180,7 +180,7 @@ h4 {
 }
 .footer-subheading {
   font-family: "Montserrat";
-  font-size: 1.625rem;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
