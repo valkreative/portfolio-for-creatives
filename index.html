@@ -1,43 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Free Creative Portfolio Template: Holding Page</title>
+    <title>Digital Portfolio | Valentina Kruglikovskaya | Valkreative</title>
     <meta
       name="description"
-      content="When writing a meta description, keep it between 140 and 160 characters so Google can display your entire message. Don’t forget to include your keyword!"
+      content="Hi, I'm Valentina! I'm a Russian-Canadian designer specializing in
+      packaging, branding and illustration. In my free time I like taking
+      silly pictures of my cat and designing fonts."
     />
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.svg" />
     <meta property="og:image" content="screenshot.jpg" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
     />
     <script
-      src="https://kit.fontawesome.com/d300c2ea15.js"
+      src="https://kit.fontawesome.com/20b8c434f2.js"
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
 
-  <body class="holding-page">
-    <div class="holding-page-wrapper">
-      <div class="holding-page-inner-container">
-        <a href="work.html">
-          <figure class="holding-page-animation">
-            <img
-              src="assets/temp/holding-page-animation.gif"
-              alt="Portfolio Website Launching Soon"
-            />
-          </figure>
-          <h1 class="holding-page-title">Valentina Kruglikovskaya</h1>
-        </a>
-      </div>
-      <div class="holding-page-footer">
-        <p class="holding-page-copyright">
-          Copyright 2023. All rights reserved.
-        </p>
-      </div>
+  <body class="work-page">
+    <div class="project-wrapper">
+      <aside class="project-aside">
+        <ul class="branding">
+          <li class="logo">
+            <a
+              href="index.html"
+              onclick="randomImage(this)"
+              onmouseover="randomImage(this)"
+              id="logo-1"
+            >
+              <div id="random-logo-container" class="logo-version-1"></div>
+            </a>
+          </li>
+        </ul>
+        <ul class="navigation">
+          <li>
+            <a href="about.html" class="custom-navigation">
+              <h5>ABOUT</h5>
+            </a>
+          </li>
+          <li>
+            <a href="playground.html" class="custom-navigation">
+              <h5>PLAYGROUND</h5>
+            </a>
+          </li>
+        </ul>
+        <div class="project-info">
+          <h1 class="project-title">Selected Works</h1>
+          <h2 class="hero-headline">
+            Hi, I'm Valentina! I'm a Russian-Canadian designer specializing in
+            illustration, branding and packaging. In my free time I like taking
+            silly pictures of my cat and designing fonts.
+          </h2>
+        </div>
+      </aside>
+
+      <main class="project-details">
+        <ul class="socials-list-header">
+          <li class="social-item">
+            <a href="https://www.instagram.com/valkreative/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/valkreative/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.behance.net/valkreative"
+              ><i class="fa-brands fa-square-behance"></i
+            ></a>
+          </li>
+        </ul>
+        <section class="portfolio">
+          <ul class="grid">
+            <li class="work-page-grid-item">
+              <figure>
+                <img
+                  src="assets/thumbnails/Valentina-Kruglikovskaya-Craft-Beer-Packaging-Thumbnail.jpg"
+                  alt="Craft Sour Beer Packaging"
+                />
+              </figure>
+              <a href="sweet-n-sour-series.html">
+                <div class="overlay">
+                  <h1 class="overlay-title">Beer Packaging</h1>
+                  <h4 class="overlay-description">Packaging &amp Branding</h4>
+                </div>
+              </a>
+            </li>
+            <li class="work-page-grid-item">
+              <figure>
+                <img
+                  src="assets/thumbnails/valentina-kruglikovskaya-valkreative-capstone-placeholder-thumbnail.jpg"
+                  alt="CBD Multivitamins Brand Identity"
+                />
+              </figure>
+              <a href="404.html">
+                <div class="overlay">
+                  <h1 class="overlay-title">Chill Pill</h1>
+                  <h4 class="overlay-description">
+                    Brand Identity &amp Packaging
+                  </h4>
+                </div>
+              </a>
+            </li>
+
+            <li class="work-page-grid-item">
+              <figure>
+                <img
+                  src="assets/thumbnails/valentina-kruglikovskaya-valkreative-cocktail-recipe-cookbook-cover-illustration-design-thumbnail.jpg"
+                  alt="Cookbook Design"
+                />
+              </figure>
+              <a href="404.html">
+                <div class="overlay">
+                  <h1 class="overlay-title">Cocktail Recipe Book</h1>
+                  <h4 class="overlay-description">
+                    Layout, Typography &amp Illustration
+                  </h4>
+                </div>
+              </a>
+            </li>
+            <li class="work-page-grid-item">
+              <figure>
+                <img
+                  src="assets/thumbnails/Valentina-Kruglikovskaya-Cannabis-Ad-Instagram-Thumbnail.jpg"
+                  alt="Digital Advertising Illustration"
+                />
+              </figure>
+              <a href="cheekys-cannabis-branding.html">
+                <div class="overlay">
+                  <h1 class="overlay-title">Cheeky's Cannabis</h1>
+                  <h4 class="overlay-description">
+                    Illustration &amp Advertising
+                  </h4>
+                </div>
+              </a>
+            </li>
+            <li class="work-page-grid-item">
+              <figure>
+                <img
+                  src="assets/thumbnails/valentina-kruglikovskaya-valkreative-flavoured-vodka-bottle-packaging-design-and-illustration-student-project-all-bottles-together-thumbnail.jpg"
+                  alt="Vodka Packaging Design"
+                />
+              </figure>
+              <a href="spirit-touch-flavoured-vodka.html">
+                <div class="overlay">
+                  <h1 class="overlay-title">Spirit Touch Vodka</h1>
+                  <h4 class="overlay-description">Branding &amp Packaging</h4>
+                </div>
+              </a>
+            </li>
+
+            <li class="work-page-grid-item">
+              <figure>
+                <img
+                  src="assets/thumbnails/Valentina-Kruglikovskaya-Annual-Report-Thumbnail.jpg"
+                  alt="Annual Report Design"
+                />
+              </figure>
+              <a href="endeavour-annual-report.html">
+                <div class="overlay">
+                  <h1 class="overlay-title">Annual Report</h1>
+                  <h4 class="overlay-description">Branding</h4>
+                </div>
+              </a>
+            </li>
+
+            <li class="work-page-grid-item">
+              <figure>
+                <img
+                  src="assets/thumbnails/posterglitchy-thumbnail.jpg"
+                  alt="Music Festival Poster Design"
+                />
+              </figure>
+              <a href="404.html">
+                <div class="overlay">
+                  <h1 class="overlay-title">Brainrot Music Fest</h1>
+                  <h4 class="overlay-description">
+                    Poster Design &amp Advertising
+                  </h4>
+                </div>
+              </a>
+            </li>
+            <li class="work-page-grid-item">
+              <figure>
+                <img
+                  src="assets/thumbnails/butter-placeholder-thumbnail.jpg"
+                  alt="Food Packaging Design"
+                />
+              </figure>
+              <a href="404.html">
+                <div class="overlay">
+                  <h1 class="overlay-title">Flavoured Butter</h1>
+                  <h4 class="overlay-description">Branding &amp Packaging</h4>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </main>
     </div>
+
+    <ul class="global-footer">
+      <li class="footer-item-1">
+        <h4 class="footer-subheading">valkreativedesign@gmail.com</h4>
+        <h4 class="footer-subheading">(604) 123-4567</h4>
+        <ul class="socials-list-footer">
+          <li class="social-item">
+            <a
+              href="https://www.instagram.com/valkreative/"
+              class="footer-social-link"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li class="social-item">
+            <a
+              href="https://www.linkedin.com/in/valkreative/"
+              class="footer-social-link"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+          <li class="social-item">
+            <a
+              href="https://www.behance.net/valkreative"
+              class="footer-social-link"
+              ><i class="fa-brands fa-square-behance"></i
+            ></a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <script type="text/javascript">
+      myID = document.getElementById("myID");
+
+      var myScrollFunc = function () {
+        var y = window.scrollY;
+        if (y >= 800) {
+          myID.className = "bottomMenu show";
+        } else {
+          myID.className = "bottomMenu hide";
+        }
+      };
+
+      window.addEventListener("scroll", myScrollFunc);
+    </script>
+    <script src="js/logo-randomizer.js"></script>
   </body>
 </html>
