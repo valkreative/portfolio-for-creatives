@@ -986,12 +986,14 @@ a.sub-navigation-link:hover {
   /* Sidebar on Large Devices */
   .project-aside {
     width: 35%;
-    height: 100vh;
+    height: 130vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5vh;
     padding-top: 2rem;
     padding-right: 2rem;
     padding-bottom: 2rem;
     padding-left: 3rem;
-    position: sticky;
   }
 
   /* Main Project Image Area on Large Devices */
