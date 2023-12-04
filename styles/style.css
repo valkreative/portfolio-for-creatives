@@ -83,9 +83,9 @@ html {
   --primary-text-color: #f7f2d0;
   --holding-page-title-color: #ebedf0;
   --accent-color: #ff6a04;
-  --overlay-color: #f7f2d0;
-  --overlay-title-color: #ff6a04;
-  --overlay-description-color: #ff6a04;
+  --overlay-color: #0b1b33;
+  --overlay-title-color: #f7f2d0;
+  --overlay-description-color: #f7f2d0;
   --hyperlink-color: #f7f2d0;
   --hyperlink-alternate-color: #ff6a04;
   --hover-color: #ff6a04;
@@ -1004,7 +1004,7 @@ a.sub-navigation-link:hover {
   }
 
   .project-image {
-    min-height: 70vh;
+    /*min-height: 70vh;*/
     /* This should be deleted if you want to remove space between project images on project pages */
   }
 
